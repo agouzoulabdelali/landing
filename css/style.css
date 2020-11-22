@@ -3,7 +3,7 @@
 @import url("components/banner.css");
 @import url("components/button.css");
 @import url("components/container.css");
-@import url("components/card.css");
+
 
 body {
   font-family: 'Lora', serif;
@@ -19,19 +19,20 @@ a {
 }
 .img-circle {
   height: 100px;
-  width: 100px; 
+  width: 100px;
   border-radius: 50%;
 }
 
 
+
 @media (max-width: 960px) {
-  
+
   .container {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  
+
   .container {
     width: 500px;
   }
